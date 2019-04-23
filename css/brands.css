@@ -1,0 +1,63 @@
+.rs-bigmag-brand .bigmag-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.rs-bigmag-brand .bigmag-brand h2 {
+    margin: 0;
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: #000;
+    border-bottom: 1px solid #eae9e9;
+    text-transform: uppercase;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider {
+    padding: 41px 0 63px;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider-item {
+    outline: none;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider-item img {
+    display: block;
+    margin: 0 auto 64px;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider-item .second-line {
+    margin-bottom: 0;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider .slick-prev,
+.rs-bigmag-brand .bigmag-brand .brand-slider .slick-next {
+    top: -14%;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider .slick-next {
+    right: -8px;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider .slick-prev {
+    right: 28px;
+    left: auto;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider .slick-next:before {
+    content: url(../img/right-arrow.png);
+    opacity: 1;
+}
+
+.rs-bigmag-brand .bigmag-brand .brand-slider .slick-prev:before {
+    content: url(../img/left-arrow.png);
+    opacity: 1;
+} 
+
+/* media queries */
+@media (max-width: 767px) {
+    .rs-bigmag-brand .bigmag-brand .brand-slider {
+        padding: 30px 0;
+    }
+}

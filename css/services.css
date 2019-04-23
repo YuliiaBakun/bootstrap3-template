@@ -1,0 +1,99 @@
+.rs-bigmag-service .bigmag-service {
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.rs-bigmag-service .bigmag-service .service {
+    position: relative;
+    max-width: 409px;
+    width: 100%;
+}
+
+.rs-bigmag-service .bigmag-service .service-title {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    text-align: right;
+    transform: translateY(-50%);
+}
+
+.rs-bigmag-service .bigmag-service .service h2 {
+    margin: 0;
+    margin-bottom: 17px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rs-bigmag-service .bigmag-service .service a {
+    color: #12afa3;
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.rs-bigmag-service .bigmag-service .service--first {
+    margin-right: 30px;
+}
+
+/* media queries */
+@media (max-width: 1199px) {
+    .rs-bigmag-service .bigmag-service .service h2 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* .rs-bigmag-service .bigmag-service {        
+        flex-wrap: wrap;
+    } */
+
+    /* .rs-bigmag-service .bigmag-service .service--first {
+        margin-right: 0;
+        margin-bottom: 30px;
+    } */
+   
+
+    
+
+}
+
+@media (max-width: 767px) {
+    .rs-bigmag-service .bigmag-service {        
+        flex-wrap: nowrap;
+    }
+
+    /* .rs-bigmag-service .bigmag-service .service--first {
+        margin-right: 30px;
+        margin-bottom: 0;
+    } */
+
+    /* .rs-bigmag-service .bigmag-service .service h2 {
+        font-size: 23px;
+    } */
+}
+
+@media (max-width: 570px) {
+    .rs-bigmag-service .bigmag-service {        
+        flex-wrap: wrap;
+    }
+
+    .rs-bigmag-service .bigmag-service .service--first {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .rs-bigmag-service .bigmag-service .service {
+        max-width: none;
+    }
+
+    .rs-bigmag-service .bigmag-service .service img {
+        width: 100%;
+    }
+}

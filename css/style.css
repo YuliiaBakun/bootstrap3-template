@@ -1,0 +1,11 @@
+@import url(../css/header.css);
+@import url(../css/slider.css);
+@import url(../css/address.css);
+@import url(../css/services.css);
+@import url(../css/brands.css);
+@import url(../css/footer.css);
+
+a:link,
+a:hover {
+    text-decoration: none;
+}
